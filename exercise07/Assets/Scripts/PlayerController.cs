@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -13,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public GameObject projectile;
     public ChainsawSteve steve;
     public GameManager gm;
+    public Animator doorAnimator;
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +57,14 @@ public class PlayerController : MonoBehaviour
                 gm.pineapples -= 1;
             }
         }
-        
+      
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("door"))
+        {
+            doorAnimator.SetTrigger("doorCollision");
+        }
     }
 }
