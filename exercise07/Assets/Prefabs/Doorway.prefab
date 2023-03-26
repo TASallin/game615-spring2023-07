@@ -322,7 +322,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 492
+  m_VersionIndex: 405
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -418,7 +418,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!65 &2069333192
 BoxCollider:
@@ -525,11 +525,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4117627159345160914}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 20.004425, z: 1}
-  m_Center: {x: 0, y: 9.502209, z: 0}
+  m_Size: {x: 1.6464645, y: 20.004425, z: 1.8232701}
+  m_Center: {x: 0.022488879, y: 9.502209, z: -0.41163462}
 --- !u!1 &5761442699629489358
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,11 +622,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5761442699629489358}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 19.979622, z: 1}
-  m_Center: {x: 0, y: 9.489814, z: 0}
+  m_Size: {x: 1.7128541, y: 19.979622, z: 1.8813496}
+  m_Center: {x: -0.04126271, y: 9.489814, z: 0.44067416}
 --- !u!1001 &1014694155629440523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -688,7 +688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4052314385501606819, guid: 3267af0492bae114da722180feab9f82, type: 3}
       propertyPath: m_VersionIndex
-      value: 3097
+      value: 3016
       objectReference: {fileID: 0}
     - target: {fileID: 4052314385501606819, guid: 3267af0492bae114da722180feab9f82, type: 3}
       propertyPath: m_Positions.Array.data[0].x
