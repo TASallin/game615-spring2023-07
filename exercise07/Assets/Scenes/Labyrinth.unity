@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &145860791 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5761442699629489358, guid: 94e30a7f4343d7142973575fa9c654d1, type: 3}
-  m_PrefabInstance: {fileID: 7859931663435253771}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &168474516
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,7 +392,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-8162
+  m_Name: pb_Mesh-1292
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -682,7 +677,7 @@ PrefabInstance:
     - target: {fileID: 6487902646731024693, guid: 3fb1b4a0476b1ca48835fcfbd0d3094f, type: 3}
       propertyPath: DoorTriggerBack
       value: 
-      objectReference: {fileID: 145860791}
+      objectReference: {fileID: 0}
     - target: {fileID: 6487902646731024693, guid: 3fb1b4a0476b1ca48835fcfbd0d3094f, type: 3}
       propertyPath: DoorTriggerFront
       value: 
@@ -953,7 +948,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-8176
+  m_Name: pb_Mesh-1314
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1757,10 +1752,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2069333192, guid: 94e30a7f4343d7142973575fa9c654d1, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1488291479240845500, guid: 94e30a7f4343d7142973575fa9c654d1, type: 3}
       propertyPath: m_Name
       value: Doorway
@@ -1823,7 +1814,7 @@ PrefabInstance:
       objectReference: {fileID: 259932614}
     - target: {fileID: 3902470798986870184, guid: 94e30a7f4343d7142973575fa9c654d1, type: 3}
       propertyPath: m_VersionIndex
-      value: 3019
+      value: 3022
       objectReference: {fileID: 0}
     - target: {fileID: 5733720407164149898, guid: 94e30a7f4343d7142973575fa9c654d1, type: 3}
       propertyPath: m_Mesh
@@ -1831,7 +1822,7 @@ PrefabInstance:
       objectReference: {fileID: 1904901827}
     - target: {fileID: 5733720407164149898, guid: 94e30a7f4343d7142973575fa9c654d1, type: 3}
       propertyPath: m_VersionIndex
-      value: 408
+      value: 411
       objectReference: {fileID: 0}
     - target: {fileID: 7482356909034178076, guid: 94e30a7f4343d7142973575fa9c654d1, type: 3}
       propertyPath: m_Mesh
