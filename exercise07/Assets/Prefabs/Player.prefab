@@ -79,7 +79,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7834923378310211328}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.01, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -110,6 +110,7 @@ MonoBehaviour:
   projectile: {fileID: 250925471666437566, guid: 87573adf984ebc84d87bef3727a0b683, type: 3}
   steve: {fileID: 0}
   gm: {fileID: 0}
+  doorAnimator: {fileID: 0}
 --- !u!54 &7834923378310211358
 Rigidbody:
   m_ObjectHideFlags: 0
