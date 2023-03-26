@@ -321,7 +321,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 498
+  m_VersionIndex: 510
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -444,6 +444,7 @@ GameObject:
   - component: {fileID: 756984197677218029}
   - component: {fileID: 4861626935185691750}
   - component: {fileID: 468158910360115518}
+  - component: {fileID: 3564494193610643302}
   m_Layer: 0
   m_Name: TriggerFront
   m_TagString: DoorFront
@@ -529,6 +530,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.6464645, y: 20.004425, z: 1.8232701}
   m_Center: {x: 0.022488879, y: 9.502209, z: -0.41163462}
+--- !u!114 &3564494193610643302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4117627159345160914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7f53ff9d3074b4fb0601072095abbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorAnimator: {fileID: 8902865001324655440}
 --- !u!1001 &1014694155629440523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -594,7 +608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4052314385501606819, guid: 3267af0492bae114da722180feab9f82, type: 3}
       propertyPath: m_VersionIndex
-      value: 3103
+      value: 3115
       objectReference: {fileID: 0}
     - target: {fileID: 4052314385501606819, guid: 3267af0492bae114da722180feab9f82, type: 3}
       propertyPath: m_Positions.Array.data[0].x

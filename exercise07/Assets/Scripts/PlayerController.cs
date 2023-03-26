@@ -66,14 +66,4 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("DoorFront"))
-        {
-            doorAnimator.SetBool("EnterFront", true);
-
-
-        }
-    }
 }
