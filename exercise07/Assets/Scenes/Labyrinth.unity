@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -233,7 +233,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-39650
+  m_Name: pb_Mesh-8142
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -397,7 +397,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-39670
+  m_Name: pb_Mesh-8162
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -789,7 +789,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-39634
+  m_Name: pb_Mesh-8126
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -953,7 +953,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-39684
+  m_Name: pb_Mesh-8176
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1757,6 +1757,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2069333192, guid: 94e30a7f4343d7142973575fa9c654d1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1488291479240845500, guid: 94e30a7f4343d7142973575fa9c654d1, type: 3}
       propertyPath: m_Name
       value: Doorway
