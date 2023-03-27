@@ -5,6 +5,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public ChainsawSteve steve;
+    public GameObject explosion;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,7 @@ public class Projectile : MonoBehaviour
         if (Vector3.Distance(steve.transform.position, transform.position) < 3) {
             steve.Damage();
         }
+        Instantiate(explosion, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }

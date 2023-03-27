@@ -15,6 +15,9 @@ public class PlayerController : MonoBehaviour
     public ChainsawSteve steve;
     public GameManager gm;
     public Animator doorAnimator;
+    public Transform powerMeter;
+    public Transform pineappleMeter;
+    public GameObject appleJuice;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +28,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        powerMeter.localScale = new Vector3(1, power / maxPower, 1);
+        pineappleMeter.localScale = new Vector3(1, pineapplePower / maxPower, 1);
 
         if (Input.GetKey(KeyCode.W))
         {
@@ -65,5 +69,11 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+    }
+
+    public void Juice() {
+        appleJuice.SetActive(true);
+        appleJuice.transform.LookAt(camera.position);
+        //appleJuice.transform.Rotate(90, 0, 0);
     }
 }

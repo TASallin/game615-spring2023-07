@@ -25,4 +25,12 @@ public class ChainsawAnimation : MonoBehaviour
     public void Recover() {
         s.Recover();
     }
+
+    public void PlaySawAudio() {
+        s.PlaySawAudio();
+    }
+
+    public void PlaySawStartAudio() {
+        s.PlaySawStartAudio();
+    }
 }

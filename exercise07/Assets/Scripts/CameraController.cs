@@ -14,7 +14,7 @@ public class CameraController : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        transform.position = player.position - transform.forward * 5 + offset;
+        transform.position = player.position - transform.forward * 2 + offset;
         transform.position = new Vector3(transform.position.x, offset.y, transform.position.z);
         float turn = Input.GetAxis("Horizontal");
         transform.Rotate(0, turn * turnSpeed * Time.deltaTime, 0);
