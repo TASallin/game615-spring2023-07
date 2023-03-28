@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class AppleSlice : MonoBehaviour
+public class GameOver : MonoBehaviour
 {
-    public PlayerController pc;
+    public Image screen;
 
     // Start is called before the first frame update
     void Start()
@@ -15,14 +16,8 @@ public class AppleSlice : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    public void Juice() {
-        pc.Juice();
-    }
-
-    public void GameOver() {
-        pc.GameOver();
+        if (screen.color.a < 1) {
+            screen.color = new Color(1, 1, 1, Mathf.Min(screen.color.a + Time.deltaTime, 1));
+        }
     }
 }

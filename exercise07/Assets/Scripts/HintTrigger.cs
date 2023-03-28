@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Collectible : MonoBehaviour
+public class HintTrigger : MonoBehaviour
 {
     public GameManager gm;
+    public string hint;
 
     // Start is called before the first frame update
     void Start()
@@ -15,13 +16,13 @@ public class Collectible : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0, Time.deltaTime * 80, 0);
+        
     }
 
     void OnTriggerEnter(Collider other) {
-        if (other.tag.Equals("Player")) {
-            gm.AddPineapple();
-            gameObject.SetActive(false);
+        if (other.tag == "Player") {
+            gm.SetHint(hint);
+            Destroy(gameObject);
         }
     }
 }

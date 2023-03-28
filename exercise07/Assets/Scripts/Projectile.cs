@@ -6,6 +6,7 @@ public class Projectile : MonoBehaviour
 {
     public ChainsawSteve steve;
     public GameObject explosion;
+    public GameManager gm;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,10 @@ public class Projectile : MonoBehaviour
     void OnCollisionEnter(Collision other) {
         if (Vector3.Distance(steve.transform.position, transform.position) < 3) {
             steve.Damage();
+        } else {
+            gm.BadAim();
         }
+        gm.CheckSoftlocked();
         Instantiate(explosion, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }

@@ -48,5 +48,14 @@ public class DoorScript : MonoBehaviour
         }
     }
 
+    void OnTriggerExit(Collider other) {
+        if (broken || !open) {
+            return;
+        }
+        if (other.CompareTag("Player")) {
+            doorAnimator.SetBool("EnterFront", false);
+            open = false;
+        }
+    }
 
 }

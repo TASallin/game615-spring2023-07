@@ -33,4 +33,12 @@ public class ChainsawAnimation : MonoBehaviour
     public void PlaySawStartAudio() {
         s.PlaySawStartAudio();
     }
+
+    public void WinGame() {
+        s.WinGame();
+    }
+
+    public void Step() {
+        s.Step();
+    }
 }
